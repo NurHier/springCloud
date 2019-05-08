@@ -1,0 +1,10 @@
+server:
+  port: 8802
+spring:
+  application:
+    name: ribbon-provider
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
